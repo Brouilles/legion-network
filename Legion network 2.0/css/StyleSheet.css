@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+	padding: 0;
+}
+
+@font-face {
+    font-family: 'Minecraft';
+    src: url('font/minecraft.eot') format('eot'),
+         url('font/minecraft.woff') format('woff'),
+         url('font/minecraft.ttf') format('truetype'),
+         url('font/minecraft.svg') format('svg');
+}
+
+.borderLegion
+{
+    margin-top: 2px;
+    color: #fff;
+    padding: 10px;
+
+    border-style: solid;
+    border-width: 20px 19px 19px 20px;
+    -moz-border-image: url(../img/theme/bordure.png) 20 19 19 20;
+    -webkit-border-image: url(../img/theme/bordure.png) 20 19 19 20;
+    -o-border-image: url(../img/theme/bordure.png) 20 19 19 20;
+    border-image: url(../img/theme/bordure.png) 20 19 19 20;
+    
+    background: url('../img/theme/boxBackground.png') repeat;
+    background-clip: padding-box;
+}
+
+.modal {
+    color: #000; 
+    font-family: Arial;
+}
+
+/* HEADER */
+.header {
+    background-color: #fff;
+    padding-bottom: 10px;
+    border-radius: 0;
+    
+    background-image: url('../img/theme/header.png');
+    background-size: 12px 100%;
+    background-repeat: repeat-x;
+}
+
+.header ul
+{
+    margin-top: 10px;
+}
+
+.header ul li a{
+    color: #fff;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+        transition-property: all;
+        transition-duration: 0.3s;
+        transition-timing-function: initial;
+        transition-delay: initial;
+}
+
+.header ul li a {
+    border-radius: 0;
+    text-shadow: 1px 1px 1px #545454;
+}
+
+.header ul li a:hover, .header ul li a:focus {
+    border-radius: 0;
+    background: none;
+    
+    color: #d1d1d1;
+    text-shadow: 1px 1px 1px #545454;
+}
+
+/* DASHBOARD */
+#playerInfo ul{
+    list-style-type: none;
+}
+
+#playerInfo .minecraft_model{
+    text-align: center;
+    
+    -moz-transform: scaleX(-1); /* For Mozilla Firefox */
+    -o-transform: scaleX(-1);   /* For Opera */
+    -webkit-transform: scaleX(-1); /* For Safari, Google chrome */
+ 
+    /* For IE */
+    filter: FlipH;
+    -ms-filter: "FlipH"; 
+}
+
+.scratch {
+    display:none;
+    margin:0;
+    padding:0;
+}
+
+/* INDEX */
+#indexContent {
+    font-family: Minecraft, Arial, sans-serif;
+    
+    margin-top: 100px;
+    color: #fff;
+    height: 100%;
+    background: url('http://legion.verygames.net/legionnetwork/img/background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+/* CANDIDACY */
+#uploadSkin {
+    height: 300px; 
+    text-align: center;
+    color: #fff;
+    
+     background: url('http://yourphotodropper.aubega.com/img/background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#CandidacyComp td,  #CandidacyComp th{
+    background-color: #fff;
+    color: #000;
+}
+
+/* BOOTSTRAP OPTION */
+.bg-danger {
+    background-color: #c80000;
+}
+
+.bg-danger a{
+    color: #d1d1d1;
+}
+
+/* FOOTER */
+#footer a { color: #fff; }

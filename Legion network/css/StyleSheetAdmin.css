@@ -1,0 +1,56 @@
+body {
+}
+
+.header {
+    padding-bottom: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+/* LOGIN */
+#account {
+    border-left: 1px solid #d1d1d1;
+}
+
+/* DASHBOARD */
+.playerInfo {
+    text-align: center;      
+}
+
+.scratch {
+    display:none;
+    margin:0;
+    padding:0;
+}
+
+/* INDEX */
+#indexContent {
+    height: 100%;
+    background: url('http://legion.verygames.net/legionnetwork/img/background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+.indexContainer {
+    margin-top: 130px;
+    color: #fff;
+}
+
+/* CANDIDACY */
+#uploadSkin {
+    height: 300px; 
+    text-align: center;
+    color: #fff;
+    
+     background: url('http://yourphotodropper.aubega.com/img/background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
